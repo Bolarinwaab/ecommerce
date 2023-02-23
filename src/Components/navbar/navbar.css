@@ -1,0 +1,57 @@
+.navbar{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 1.5rem;
+
+}
+.navbar-links{
+     
+    
+    display: flex;
+    align-items: center;
+
+}
+.navbar-links p{
+     color: #fff;
+     font-family: 'Oswald', sans-serif;
+     font-weight: 600;
+     font-size: 14px;
+     line-height: 24px;
+     text-transform: uppercase;
+     margin: 0 1rem;
+     cursor: pointer;
+}
+.navbar-buttons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.navbar-buttons p{
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+     font-size: 14px;
+     line-height: 24px;
+     text-transform: uppercase;
+     margin: 0 0.5rem;
+     cursor: pointer;
+}
+.navbar-buttons img{
+    margin: 0 0 0 1rem;
+}
+.cart{
+    display: flex;
+    margin: 0 0 0 0.3rem;
+}
+.cart p{
+    display: flex;
+    flex-direction: column;
+}
+.cart p:first-child {
+    font-size: 12px;
+    text-transform: capitalize;
+}
