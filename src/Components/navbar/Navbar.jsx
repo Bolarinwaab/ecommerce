@@ -43,9 +43,10 @@ const Navbar = () => {
       <div className="navbar-buttons">
         <p>sign in</p>
         <p>Create an Account</p>
-        <img src={heart} className="heart-icon" alt="icon" />
+        
 
         <div className="cart">
+        <img src={heart} className="heart-icon" alt="icon" />
           <img src={cart} className="cart-icon" alt="icon" />
           <div className="cart-text">
             <p>1 Item</p>
@@ -69,16 +70,18 @@ const Navbar = () => {
           />
         )}
         {toggleMenu && (
-          <div className="navbar-menu-container">
+          <div className="navbar-menu-container  scale-up-center">
+
             <div className="navbar-menu-container-links">
               <MenuLinks />
             </div>
-            <div className="navbar-menu-container-button">
+            <div className="navbar-menu-container-buttons">
               <p>sign in</p>
               <p>Create an Account</p>
-              <img src={heart} className="heart-icon" alt="icon" />
+              
 
               <div className="cart">
+              <img src={heart} className="heart-icon" alt="icon" style={{marginRight:"20px"}}/>
                 <img src={cart} className="cart-icon" alt="icon" />
                 <div className="cart-text">
                   <p>1 Item</p>
